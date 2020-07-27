@@ -1,0 +1,146 @@
+body, h1, h2, h3, h4, p, a {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(0, 0, 0, 0.15);
+    transition-duration: 1s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #b03000;
+    border-bottom-color: rgba(176,48,0,0.15);
+    transition-duration: 0s;
+}
+
+a.preview {
+    text-decoration: none;
+    color: none;
+    border-bottom: none;
+}
+
+.header {
+    height: 5vh;
+}
+
+.header-title {
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 0.3em;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 1vh;
+}
+
+.links {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: black;
+    display: inline-block;
+    margin: auto;
+    padding: 4px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: block;
+    text-align: center;
+}
+
+.content {
+    font-size: 0;
+    width: 790px;
+    margin: 100px auto 50px;
+}
+
+.card {
+    width: 350px;
+    margin-bottom: 60px;
+    margin-right: 90px;
+    padding: 20px 45px 65px;
+    display: inline-block;
+}
+
+.about {
+    width: 720px;
+    margin: 0px 0px 30px 22.5px;
+    padding: 0px 0px 30px 22.5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.no-right-margin {
+    margin-right: 0;
+}
+
+#grad1 {
+    height: 100%;
+    background: rgb(83,83,83);
+background: linear-gradient(180deg, rgba(83,83,83,0.9112832633053222) 0%, rgba(242,242,242,0.9420955882352942) 100%);
+}
+
+#grad2 {
+    height: 100%;
+    background: rgb(83,83,83);
+    background: linear-gradient(0deg, rgba(83,83,83,0.9112832633053222) 0%, rgba(242,242,242,0.9420955882352942) 100%);
+}
+
+#grad3 {
+    height: 100%;
+    background-color: #cccccc;
+    background-image: radial-gradient(#ff0000, #ffff00);
+}
+
+#grad4 {
+    height: 100%;
+    background-color: #cccccc;
+    background-image: radial-gradient(#ff0000, #ffff00);
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 25px;
+}
+
+.card-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 1.15;
+    letter-spacing: 0.1em;
+}
+
+.card-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.footer {
+    height: 10vh;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.footer-author {
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
+    font-size: 18px;
+}
